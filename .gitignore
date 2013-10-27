@@ -1,0 +1,11 @@
+# C
+*.o
+mm
+a.out
+
+# Python
+*.pyc
+__pycache__
+
+# Ruby
+Gemfile.lock

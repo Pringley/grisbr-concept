@@ -9,17 +9,17 @@ C:
 
     cd c
     make
-    ./mm
+    ./mm <input>
 
 Python:
 
     cd py
-    python mm-native.py
-    python mm-numpy.py
+    python mm-native.py <input>
+    python mm-numpy.py <input>
 
 Ruby:
 
     cd rb
-    bundle exec ruby mm-native.rb
-    bundle exec ruby mm-inline.rb
-    bundle exec ruby mm-bridge.rb
+    bundle exec ruby mm-native.rb <input>
+    bundle exec ruby mm-inline.rb <input>
+    bundle exec ruby mm-bridge.rb <input>

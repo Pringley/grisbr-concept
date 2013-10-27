@@ -1,5 +1,5 @@
 EXE = mm
-CFLAGS = -Wall -std=c99
+CFLAGS = -Wall
 .PHONY: default clean
 default: $(EXE)
 clean:
